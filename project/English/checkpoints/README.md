@@ -1,4 +1,4 @@
-Place the model weights here (see the table in the top-level README):
+Model weights (fp16) for the English model:
 
 - selected_model_fp16.pth : final model, step 15000
 - best_model_fp16.pth     : lowest validation loss of the final run
