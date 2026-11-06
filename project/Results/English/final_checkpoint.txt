@@ -1,0 +1,1 @@
+Final English checkpoint: step 15000 (chosen by listening). The spectrogram-distance metric had ranked step 5000 first; its outputs are in extra/objective_pick_step5000.

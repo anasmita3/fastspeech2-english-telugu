@@ -1,0 +1,1 @@
+Final Telugu checkpoint: step 15000 (chosen by listening). The spectrogram-distance metric had ranked step 6000 first; its outputs are in extra/objective_pick_step6000.

@@ -1,0 +1,8 @@
+work/
+__pycache__/
+*.pyc
+raw_data/
+preprocessed_data/
+*.tar
+*.pth.tar
+*.tmp

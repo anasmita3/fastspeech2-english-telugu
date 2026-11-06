@@ -1,0 +1,10 @@
+{
+  "note": "Sentences exactly as in the assignment PDF, except E3: the PDF prints 'rhyth m' (a stray space, almost certainly a typesetting glitch) and we synthesise 'rhythm'.",
+  "sentences": [
+    {"id": "E1",  "text": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings."},
+    {"id": "E2a", "text": "The orchestra's conduct during the ceremony was praised by the audience."},
+    {"id": "E2b", "text": "The researchers will conduct an experiment to evaluate the proposed method."},
+    {"id": "E3",  "text": "The rhythm of the orchestra changed unexpectedly.", "as_printed": "The rhyth m of the orchestra changed unexpectedly."},
+    {"id": "E4",  "text": "The meeting will start at 10:45 AM on 12 November 2026, so andaroo should arrive on time."}
+  ]
+}

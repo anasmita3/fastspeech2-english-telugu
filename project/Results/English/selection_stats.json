@@ -1,0 +1,1801 @@
+{
+  "train_hours": 4.98638138888889,
+  "val_hours": 1.1090703819444445,
+  "train_utterances": 3452,
+  "val_utterances": 748,
+  "n_speakers": 103,
+  "dropped": {
+    "too short": 1215,
+    "too long": 486
+  },
+  "pseudo_speaker_columns": [
+    "gender",
+    "age-group",
+    "primary_language",
+    "native_place_state",
+    "native_place_district",
+    "highest_qualification",
+    "job_category",
+    "occupation_domain"
+  ],
+  "pseudo_speaker_keys": {
+    "spk000": [
+      "Female",
+      "18-30",
+      "Kannada",
+      "Karnataka",
+      "Hassan",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk001": [
+      "Female",
+      "30-45",
+      "Kannada",
+      "Karnataka",
+      "Gulbarga",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk002": [
+      "Female",
+      "45-60",
+      "Maithili",
+      "Bihar",
+      "Darbhanga",
+      "Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk003": [
+      "Male",
+      "30-45",
+      "Maithili",
+      "Bihar",
+      "Darbhanga",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk004": [
+      "Female",
+      "30-45",
+      "Bengali",
+      "West Bengal",
+      "Kolkata",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk005": [
+      "Male",
+      "45-60",
+      "Bodo",
+      "Assam",
+      "Udalguri",
+      "Doctoral (PhD) or higher level",
+      "Freelance",
+      "Education and Research"
+    ],
+    "spk006": [
+      "Male",
+      "30-45",
+      "Bodo",
+      "Assam",
+      "Kokrajhar",
+      "Post Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk007": [
+      "Female",
+      "18-30",
+      "Malayalam",
+      "Kerala",
+      "Pathanamthitta",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk008": [
+      "Female",
+      "18-30",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Under Graduate Student",
+      "Other",
+      "Education and Research"
+    ],
+    "spk009": [
+      "Male",
+      "45-60",
+      "Kannada",
+      "Karnataka",
+      "Shimoga",
+      "Post Graduate",
+      "Other",
+      "Manufacturing"
+    ],
+    "spk010": [
+      "Female",
+      "30-45",
+      "Assamese",
+      "Assam",
+      "Biswanath",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk011": [
+      "Female",
+      "18-30",
+      "Marathi",
+      "Maharashtra",
+      "Ratnagiri",
+      "Graduate",
+      "Part Time",
+      "Social service"
+    ],
+    "spk012": [
+      "Female",
+      "60+",
+      "Odia",
+      "Odisha",
+      "Angul",
+      "Post Graduate",
+      "Full Time",
+      "Social service"
+    ],
+    "spk013": [
+      "Male",
+      "18-30",
+      "Nepali",
+      "West Bengal",
+      "Kalimpong",
+      "Post Graduate",
+      "Part Time",
+      "Social service"
+    ],
+    "spk014": [
+      "Male",
+      "30-45",
+      "Malayalam",
+      "Kerala",
+      "Palakkad",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk015": [
+      "Male",
+      "45-60",
+      "Nepali",
+      "Meghalaya",
+      "Ri Bhoi",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk016": [
+      "Female",
+      "18-30",
+      "Tamil",
+      "Kerala",
+      "Thiruvananthapuram",
+      "Under Graduate Student",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk017": [
+      "Male",
+      "30-45",
+      "Punjabi",
+      "Punjab",
+      "Mansa",
+      "Post Graduate",
+      "Full Time",
+      "Government"
+    ],
+    "spk018": [
+      "Male",
+      "60+",
+      "Marathi",
+      "Maharashtra",
+      "Solapur",
+      "Graduate",
+      "Full Time",
+      "Healthcare (Medical &amp; Pharma)"
+    ],
+    "spk019": [
+      "Female",
+      "45-60",
+      "Telugu",
+      "Andhra Pradesh",
+      "Krishna",
+      "Graduate",
+      "Part Time",
+      "Technology and Services"
+    ],
+    "spk020": [
+      "Female",
+      "30-45",
+      "Kashmiri",
+      "Jammu Kashmir",
+      "Srinagar",
+      "Doctoral (PhD) or higher level",
+      "Other",
+      "Education and Research"
+    ],
+    "spk021": [
+      "Female",
+      "18-30",
+      "Malayalam",
+      "Kerala",
+      "Pathanamthitta",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk022": [
+      "Male",
+      "18-30",
+      "Kannada",
+      "Karnataka",
+      "Bangalore Urban",
+      "Graduate",
+      "Part Time",
+      "Information and Media"
+    ],
+    "spk023": [
+      "Female",
+      "45-60",
+      "Nepali",
+      "Assam",
+      "Kamrup",
+      "Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk024": [
+      "Female",
+      "30-45",
+      "Marathi",
+      "Maharashtra",
+      "Pune",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk025": [
+      "Female",
+      "18-30",
+      "Hindi",
+      "Rajasthan",
+      "Ajmer",
+      "Under Graduate Student",
+      "Other",
+      "Education and Research"
+    ],
+    "spk026": [
+      "Female",
+      "45-60",
+      "Telugu",
+      "Odisha",
+      "Sambalpur",
+      "Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk027": [
+      "Female",
+      "45-60",
+      "Telugu",
+      "Andhra Pradesh",
+      "Guntur",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk028": [
+      "Male",
+      "45-60",
+      "Urdu",
+      "Gujarat",
+      "Ahmedabad",
+      "Diploma Holder",
+      "Other",
+      "Government"
+    ],
+    "spk029": [
+      "Male",
+      "60+",
+      "Bengali",
+      "West Bengal",
+      "South 24 Parganas",
+      "Post Graduate",
+      "Other",
+      "Financial Services (Banking and Insurance)"
+    ],
+    "spk030": [
+      "Female",
+      "45-60",
+      "Urdu",
+      "Maharashtra",
+      "Satara",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk031": [
+      "Male",
+      "18-30",
+      "Bengali",
+      "West Bengal",
+      "Kolkata",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk032": [
+      "Female",
+      "18-30",
+      "Konkani",
+      "Goa",
+      "South Goa",
+      "Post Graduate",
+      "Full Time",
+      "Government"
+    ],
+    "spk033": [
+      "Male",
+      "30-45",
+      "Urdu",
+      "Gujarat",
+      "Ahmedabad",
+      "Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk034": [
+      "Male",
+      "45-60",
+      "Kashmiri",
+      "Jammu Kashmir",
+      "Srinagar",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk035": [
+      "Female",
+      "18-30",
+      "Odia",
+      "Odisha",
+      "Khordha",
+      "Post Graduate",
+      "Full Time",
+      "Transportation and Logistics"
+    ],
+    "spk036": [
+      "Female",
+      "30-45",
+      "Malayalam",
+      "Kerala",
+      "Pathanamthitta",
+      "Post Graduate",
+      "Other",
+      "Financial Services (Banking and Insurance)"
+    ],
+    "spk037": [
+      "Male",
+      "18-30",
+      "Odia",
+      "Odisha",
+      "Sundergarh",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk038": [
+      "Female",
+      "18-30",
+      "Nepali",
+      "West Bengal",
+      "Darjeeling",
+      "Post Graduate",
+      "Other",
+      "Entertainment"
+    ],
+    "spk039": [
+      "Female",
+      "30-45",
+      "Urdu",
+      "Karnataka",
+      "Bangalore Urban",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk040": [
+      "Female",
+      "30-45",
+      "Maithili",
+      "Bihar",
+      "Darbhanga",
+      "Post Graduate",
+      "Freelance",
+      "Information and Media"
+    ],
+    "spk041": [
+      "Female",
+      "18-30",
+      "Punjabi",
+      "Punjab",
+      "Patiala",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk042": [
+      "Male",
+      "18-30",
+      "Konkani",
+      "Goa",
+      "South Goa",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk043": [
+      "Male",
+      "30-45",
+      "Sindhi",
+      "Rajasthan",
+      "Ajmer",
+      "Post Graduate",
+      "Part Time",
+      "Government"
+    ],
+    "spk044": [
+      "Male",
+      "30-45",
+      "Konkani",
+      "Goa",
+      "North Goa",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk045": [
+      "Female",
+      "30-45",
+      "Gujarati",
+      "Gujarat",
+      "Amreli",
+      "Post Graduate",
+      "Freelance",
+      "Education and Research"
+    ],
+    "spk046": [
+      "Female",
+      "18-30",
+      "Tamil",
+      "Karnataka",
+      "Bangalore Urban",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk047": [
+      "Male",
+      "18-30",
+      "Hindi",
+      "Maharashtra",
+      "Pune",
+      "Under Graduate Student",
+      "Freelance",
+      "Financial Services (Banking and Insurance)"
+    ],
+    "spk048": [
+      "Female",
+      "45-60",
+      "Telugu",
+      "Telangana",
+      "Hyderabad",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk049": [
+      "Male",
+      "45-60",
+      "Tamil",
+      "Tamil Nadu",
+      "Karur",
+      "Post Graduate",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk050": [
+      "Female",
+      "30-45",
+      "Nepali",
+      "West Bengal",
+      "Kalimpong",
+      "Post Graduate",
+      "Other",
+      "Social service"
+    ],
+    "spk051": [
+      "Female",
+      "45-60",
+      "Konkani",
+      "Goa",
+      "North Goa",
+      "Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk052": [
+      "Male",
+      "18-30",
+      "Gujarati",
+      "Gujarat",
+      "Sabarkantha",
+      "Post Graduate",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk053": [
+      "Female",
+      "45-60",
+      "Telugu",
+      "Andhra Pradesh",
+      "Kurnool",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk054": [
+      "Male",
+      "30-45",
+      "Gujarati",
+      "Gujarat",
+      "Sabarkantha",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk055": [
+      "Male",
+      "18-30",
+      "Telugu",
+      "Andhra Pradesh",
+      "Prakasam",
+      "Under Graduate Student",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk056": [
+      "Female",
+      "30-45",
+      "Odia",
+      "Odisha",
+      "Cuttack",
+      "Graduate",
+      "Other",
+      "Healthcare (Medical &amp; Pharma)"
+    ],
+    "spk057": [
+      "Male",
+      "45-60",
+      "Malayalam",
+      "Kerala",
+      "Pathanamthitta",
+      "Graduate",
+      "Full Time",
+      "Government"
+    ],
+    "spk058": [
+      "Male",
+      "30-45",
+      "Bengali",
+      "West Bengal",
+      "Kolkata",
+      "Graduate",
+      "Freelance",
+      "Entertainment"
+    ],
+    "spk059": [
+      "Male",
+      "60+",
+      "Punjabi",
+      "Punjab",
+      "Rupnagar",
+      "Graduate",
+      "Other",
+      "Government"
+    ],
+    "spk060": [
+      "Male",
+      "45-60",
+      "Odia",
+      "Odisha",
+      "Puri",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk061": [
+      "Female",
+      "45-60",
+      "Punjabi",
+      "Punjab",
+      "Fatehgarh Sahib",
+      "Post Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk062": [
+      "Male",
+      "18-30",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Senior Secondary Level at School (10+2)",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk063": [
+      "Female",
+      "18-30",
+      "Maithili",
+      "Bihar",
+      "Darbhanga",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk064": [
+      "Male",
+      "18-30",
+      "Bodo",
+      "Assam",
+      "Kokrajhar",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk065": [
+      "Male",
+      "30-45",
+      "Kashmiri",
+      "Jammu Kashmir",
+      "Anantnag",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk066": [
+      "Male",
+      "30-45",
+      "Kannada",
+      "Karnataka",
+      "Shimoga",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk067": [
+      "Male",
+      "18-30",
+      "Assamese",
+      "Assam",
+      "Lakhimpur",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk068": [
+      "Female",
+      "30-45",
+      "Nepali",
+      "West Bengal",
+      "Kalimpong",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk069": [
+      "Male",
+      "30-45",
+      "Maithili",
+      "Bihar",
+      "Samastipur",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk070": [
+      "Male",
+      "18-30",
+      "Urdu",
+      "Bihar",
+      "Gaya",
+      "Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk071": [
+      "Male",
+      "18-30",
+      "Assamese",
+      "Assam",
+      "Kamrup Metropolitan",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk072": [
+      "Female",
+      "30-45",
+      "Sindhi",
+      "Gujarat",
+      "Ahmedabad",
+      "Post Graduate",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk073": [
+      "Female",
+      "18-30",
+      "Urdu",
+      "Maharashtra",
+      "Thane",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk074": [
+      "Female",
+      "30-45",
+      "Telugu",
+      "Andhra Pradesh",
+      "West Godavari",
+      "Post Graduate",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk075": [
+      "Male",
+      "45-60",
+      "Gujarati",
+      "Gujarat",
+      "Amreli",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk076": [
+      "Female",
+      "30-45",
+      "Tamil",
+      "Tamil Nadu",
+      "Chennai",
+      "Graduate",
+      "Freelance",
+      "Education and Research"
+    ],
+    "spk077": [
+      "Male",
+      "60+",
+      "Assamese",
+      "Assam",
+      "Biswanath",
+      "Post Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk078": [
+      "Female",
+      "30-45",
+      "Punjabi",
+      "Punjab",
+      "Patiala",
+      "Post Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk079": [
+      "Female",
+      "18-30",
+      "Kannada",
+      "Karnataka",
+      "Gulbarga",
+      "Senior Secondary Level at School (10+2)",
+      "Other",
+      "Education and Research"
+    ],
+    "spk080": [
+      "Female",
+      "18-30",
+      "Tamil",
+      "Tamil Nadu",
+      "Virudhunagar",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk081": [
+      "Male",
+      "18-30",
+      "Malayalam",
+      "Kerala",
+      "Malappuram",
+      "Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk082": [
+      "Male",
+      "18-30",
+      "Kashmiri",
+      "Jammu Kashmir",
+      "Srinagar",
+      "Post Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk083": [
+      "Male",
+      "30-45",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk084": [
+      "Female",
+      "18-30",
+      "Bodo",
+      "Assam",
+      "Kokrajhar",
+      "Post Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk085": [
+      "Female",
+      "30-45",
+      "Hindi",
+      "Goa",
+      "South Goa",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk086": [
+      "Male",
+      "60+",
+      "Konkani",
+      "Goa",
+      "North Goa",
+      "Graduate",
+      "Full Time",
+      "Financial Services (Banking and Insurance)"
+    ],
+    "spk087": [
+      "Male",
+      "60+",
+      "Kannada",
+      "Telangana",
+      "Hyderabad",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk088": [
+      "Male",
+      "60+",
+      "Maithili",
+      "Bihar",
+      "Madhubani",
+      "Doctoral (PhD) or higher level",
+      "Freelance",
+      "Government"
+    ],
+    "spk089": [
+      "Male",
+      "60+",
+      "Odia",
+      "Odisha",
+      "Sundergarh",
+      "Graduate",
+      "Freelance",
+      "Education and Research"
+    ],
+    "spk090": [
+      "Female",
+      "45-60",
+      "Tamil",
+      "Tamil Nadu",
+      "Chennai",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk091": [
+      "Female",
+      "45-60",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Doctoral (PhD) or higher level",
+      "Other",
+      "Education and Research"
+    ],
+    "spk092": [
+      "Male",
+      "30-45",
+      "Tamil",
+      "Karnataka",
+      "Bangalore Rural",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk093": [
+      "Female",
+      "18-30",
+      "Bengali",
+      "West Bengal",
+      "South 24 Parganas",
+      "Post Graduate",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk094": [
+      "Male",
+      "45-60",
+      "Telugu",
+      "Telangana",
+      "Hyderabad",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk095": [
+      "Female",
+      "30-45",
+      "Tamil",
+      "Tamil Nadu",
+      "Chennai",
+      "Post Graduate",
+      "Part Time",
+      "Information and Media"
+    ],
+    "spk096": [
+      "Male",
+      "30-45",
+      "Assamese",
+      "Assam",
+      "Nagaon",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk097": [
+      "Female",
+      "18-30",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Graduate",
+      "Other",
+      "Education and Research"
+    ],
+    "spk098": [
+      "Male",
+      "30-45",
+      "Maithili",
+      "Bihar",
+      "Sitamarhi",
+      "Graduate",
+      "Part Time",
+      "Education and Research"
+    ],
+    "spk099": [
+      "Female",
+      "60+",
+      "Tamil",
+      "Madhya Pradesh",
+      "Ujjain",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk100": [
+      "Male",
+      "30-45",
+      "Hindi",
+      "Gujarat",
+      "Vadodara",
+      "Post Graduate",
+      "Full Time",
+      "Information and Media"
+    ],
+    "spk101": [
+      "Female",
+      "30-45",
+      "Tamil",
+      "Tamil Nadu",
+      "Chennai",
+      "Post Graduate",
+      "Part Time",
+      "Technology and Services"
+    ],
+    "spk102": [
+      "Female",
+      "45-60",
+      "Bengali",
+      "West Bengal",
+      "South 24 Parganas",
+      "Graduate",
+      "Other",
+      "Financial Services (Banking and Insurance)"
+    ],
+    "spk103": [
+      "Male",
+      "30-45",
+      "Kannada",
+      "Karnataka",
+      "Bangalore Urban",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk104": [
+      "Male",
+      "45-60",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Graduate",
+      "Full Time",
+      "Retail"
+    ],
+    "spk105": [
+      "Female",
+      "18-30",
+      "Assamese",
+      "Assam",
+      "Nalbari",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk106": [
+      "Female",
+      "45-60",
+      "Kannada",
+      "Karnataka",
+      "Bangalore Urban",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk107": [
+      "Female",
+      "30-45",
+      "Konkani",
+      "Goa",
+      "North Goa",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk108": [
+      "Female",
+      "45-60",
+      "Marathi",
+      "Maharashtra",
+      "Kolhapur",
+      "Post Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk109": [
+      "Male",
+      "30-45",
+      "Marathi",
+      "Maharashtra",
+      "Raigad",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk110": [
+      "Female",
+      "30-45",
+      "Bodo",
+      "Assam",
+      "Kokrajhar",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk111": [
+      "Female",
+      "45-60",
+      "Hindi",
+      "West Bengal",
+      "Kolkata",
+      "Post Graduate",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk112": [
+      "Female",
+      "30-45",
+      "Dogri",
+      "Jammu Kashmir",
+      "Jammu",
+      "Doctoral (PhD) or higher level",
+      "Full Time",
+      "Education and Research"
+    ],
+    "spk113": [
+      "Female",
+      "18-30",
+      "Hindi",
+      "Madhya Pradesh",
+      "Khandwa",
+      "Graduate",
+      "Full Time",
+      "Technology and Services"
+    ],
+    "spk114": [
+      "Female",
+      "18-30",
+      "Gujarati",
+      "Gujarat",
+      "Amreli",
+      "Graduate",
+      "Other",
+      "Entertainment"
+    ]
+  },
+  "settings": {
+    "train_hours": 5.0,
+    "val_hours": 1.0,
+    "seed": 1234,
+    "min_seconds": 1.0,
+    "max_seconds": 12.0,
+    "min_speaker_seconds": 60
+  },
+  "per_speaker": {
+    "spk000": {
+      "train_s": 443.7,
+      "val_s": 90.3,
+      "train_n": 75,
+      "val_n": 15
+    },
+    "spk001": {
+      "train_s": 397.0,
+      "val_s": 86.1,
+      "train_n": 93,
+      "val_n": 20
+    },
+    "spk002": {
+      "train_s": 254.3,
+      "val_s": 51.1,
+      "train_n": 46,
+      "val_n": 11
+    },
+    "spk003": {
+      "train_s": 342.5,
+      "val_s": 71.3,
+      "train_n": 73,
+      "val_n": 15
+    },
+    "spk004": {
+      "train_s": 182.2,
+      "val_s": 41.0,
+      "train_n": 36,
+      "val_n": 7
+    },
+    "spk005": {
+      "train_s": 214.6,
+      "val_s": 54.9,
+      "train_n": 53,
+      "val_n": 12
+    },
+    "spk006": {
+      "train_s": 206.7,
+      "val_s": 44.4,
+      "train_n": 49,
+      "val_n": 12
+    },
+    "spk007": {
+      "train_s": 364.8,
+      "val_s": 79.9,
+      "train_n": 62,
+      "val_n": 13
+    },
+    "spk008": {
+      "train_s": 83.5,
+      "val_s": 18.8,
+      "train_n": 17,
+      "val_n": 2
+    },
+    "spk009": {
+      "train_s": 108.7,
+      "val_s": 23.6,
+      "train_n": 21,
+      "val_n": 4
+    },
+    "spk010": {
+      "train_s": 110.5,
+      "val_s": 25.0,
+      "train_n": 17,
+      "val_n": 5
+    },
+    "spk011": {
+      "train_s": 280.3,
+      "val_s": 58.6,
+      "train_n": 49,
+      "val_n": 11
+    },
+    "spk012": {
+      "train_s": 322.7,
+      "val_s": 68.1,
+      "train_n": 60,
+      "val_n": 13
+    },
+    "spk013": {
+      "train_s": 805.7,
+      "val_s": 162.7,
+      "train_n": 116,
+      "val_n": 24
+    },
+    "spk014": {
+      "train_s": 316.3,
+      "val_s": 64.5,
+      "train_n": 63,
+      "val_n": 11
+    },
+    "spk015": {
+      "train_s": 165.6,
+      "val_s": 40.4,
+      "train_n": 27,
+      "val_n": 6
+    },
+    "spk016": {
+      "train_s": 178.2,
+      "val_s": 35.8,
+      "train_n": 33,
+      "val_n": 7
+    },
+    "spk017": {
+      "train_s": 99.0,
+      "val_s": 23.1,
+      "train_n": 23,
+      "val_n": 8
+    },
+    "spk018": {
+      "train_s": 187.6,
+      "val_s": 41.7,
+      "train_n": 57,
+      "val_n": 9
+    },
+    "spk019": {
+      "train_s": 178.6,
+      "val_s": 38.6,
+      "train_n": 30,
+      "val_n": 9
+    },
+    "spk020": {
+      "train_s": 511.4,
+      "val_s": 104.4,
+      "train_n": 112,
+      "val_n": 17
+    },
+    "spk021": {
+      "train_s": 257.3,
+      "val_s": 54.4,
+      "train_n": 50,
+      "val_n": 8
+    },
+    "spk022": {
+      "train_s": 112.1,
+      "val_s": 22.8,
+      "train_n": 25,
+      "val_n": 8
+    },
+    "spk023": {
+      "train_s": 179.4,
+      "val_s": 42.3,
+      "train_n": 36,
+      "val_n": 7
+    },
+    "spk024": {
+      "train_s": 64.2,
+      "val_s": 16.4,
+      "train_n": 17,
+      "val_n": 2
+    },
+    "spk026": {
+      "train_s": 98.0,
+      "val_s": 21.4,
+      "train_n": 20,
+      "val_n": 3
+    },
+    "spk027": {
+      "train_s": 118.5,
+      "val_s": 27.4,
+      "train_n": 21,
+      "val_n": 5
+    },
+    "spk028": {
+      "train_s": 69.4,
+      "val_s": 16.5,
+      "train_n": 13,
+      "val_n": 3
+    },
+    "spk029": {
+      "train_s": 74.3,
+      "val_s": 17.7,
+      "train_n": 18,
+      "val_n": 5
+    },
+    "spk030": {
+      "train_s": 204.0,
+      "val_s": 42.3,
+      "train_n": 52,
+      "val_n": 11
+    },
+    "spk031": {
+      "train_s": 84.8,
+      "val_s": 19.1,
+      "train_n": 17,
+      "val_n": 3
+    },
+    "spk032": {
+      "train_s": 121.2,
+      "val_s": 27.0,
+      "train_n": 22,
+      "val_n": 4
+    },
+    "spk033": {
+      "train_s": 514.3,
+      "val_s": 108.8,
+      "train_n": 107,
+      "val_n": 18
+    },
+    "spk034": {
+      "train_s": 147.2,
+      "val_s": 32.3,
+      "train_n": 29,
+      "val_n": 4
+    },
+    "spk035": {
+      "train_s": 214.1,
+      "val_s": 51.4,
+      "train_n": 37,
+      "val_n": 6
+    },
+    "spk036": {
+      "train_s": 223.1,
+      "val_s": 51.4,
+      "train_n": 37,
+      "val_n": 12
+    },
+    "spk037": {
+      "train_s": 463.0,
+      "val_s": 97.4,
+      "train_n": 97,
+      "val_n": 15
+    },
+    "spk038": {
+      "train_s": 385.6,
+      "val_s": 83.1,
+      "train_n": 73,
+      "val_n": 18
+    },
+    "spk039": {
+      "train_s": 338.8,
+      "val_s": 74.6,
+      "train_n": 69,
+      "val_n": 13
+    },
+    "spk040": {
+      "train_s": 394.6,
+      "val_s": 84.4,
+      "train_n": 66,
+      "val_n": 13
+    },
+    "spk041": {
+      "train_s": 111.6,
+      "val_s": 23.9,
+      "train_n": 19,
+      "val_n": 5
+    },
+    "spk042": {
+      "train_s": 231.1,
+      "val_s": 48.4,
+      "train_n": 40,
+      "val_n": 10
+    },
+    "spk043": {
+      "train_s": 171.8,
+      "val_s": 37.2,
+      "train_n": 38,
+      "val_n": 10
+    },
+    "spk044": {
+      "train_s": 65.0,
+      "val_s": 14.6,
+      "train_n": 15,
+      "val_n": 3
+    },
+    "spk045": {
+      "train_s": 220.8,
+      "val_s": 44.6,
+      "train_n": 56,
+      "val_n": 9
+    },
+    "spk046": {
+      "train_s": 119.8,
+      "val_s": 27.2,
+      "train_n": 29,
+      "val_n": 5
+    },
+    "spk047": {
+      "train_s": 113.9,
+      "val_s": 23.4,
+      "train_n": 21,
+      "val_n": 6
+    },
+    "spk048": {
+      "train_s": 76.0,
+      "val_s": 18.7,
+      "train_n": 15,
+      "val_n": 3
+    },
+    "spk049": {
+      "train_s": 120.4,
+      "val_s": 26.2,
+      "train_n": 30,
+      "val_n": 5
+    },
+    "spk050": {
+      "train_s": 149.2,
+      "val_s": 31.9,
+      "train_n": 22,
+      "val_n": 7
+    },
+    "spk051": {
+      "train_s": 183.7,
+      "val_s": 38.1,
+      "train_n": 31,
+      "val_n": 6
+    },
+    "spk052": {
+      "train_s": 220.2,
+      "val_s": 44.3,
+      "train_n": 38,
+      "val_n": 9
+    },
+    "spk053": {
+      "train_s": 156.6,
+      "val_s": 35.2,
+      "train_n": 35,
+      "val_n": 10
+    },
+    "spk054": {
+      "train_s": 205.7,
+      "val_s": 45.7,
+      "train_n": 33,
+      "val_n": 7
+    },
+    "spk055": {
+      "train_s": 43.5,
+      "val_s": 13.6,
+      "train_n": 9,
+      "val_n": 3
+    },
+    "spk056": {
+      "train_s": 162.0,
+      "val_s": 32.8,
+      "train_n": 27,
+      "val_n": 7
+    },
+    "spk057": {
+      "train_s": 189.7,
+      "val_s": 38.0,
+      "train_n": 48,
+      "val_n": 9
+    },
+    "spk058": {
+      "train_s": 132.0,
+      "val_s": 26.9,
+      "train_n": 34,
+      "val_n": 7
+    },
+    "spk060": {
+      "train_s": 60.6,
+      "val_s": 18.5,
+      "train_n": 14,
+      "val_n": 3
+    },
+    "spk061": {
+      "train_s": 77.2,
+      "val_s": 19.0,
+      "train_n": 15,
+      "val_n": 3
+    },
+    "spk062": {
+      "train_s": 168.3,
+      "val_s": 37.0,
+      "train_n": 38,
+      "val_n": 10
+    },
+    "spk063": {
+      "train_s": 49.2,
+      "val_s": 15.6,
+      "train_n": 11,
+      "val_n": 4
+    },
+    "spk064": {
+      "train_s": 118.7,
+      "val_s": 25.2,
+      "train_n": 24,
+      "val_n": 4
+    },
+    "spk065": {
+      "train_s": 120.7,
+      "val_s": 28.7,
+      "train_n": 26,
+      "val_n": 6
+    },
+    "spk067": {
+      "train_s": 53.3,
+      "val_s": 14.7,
+      "train_n": 14,
+      "val_n": 4
+    },
+    "spk068": {
+      "train_s": 420.6,
+      "val_s": 93.1,
+      "train_n": 58,
+      "val_n": 12
+    },
+    "spk069": {
+      "train_s": 275.9,
+      "val_s": 65.4,
+      "train_n": 43,
+      "val_n": 8
+    },
+    "spk070": {
+      "train_s": 98.2,
+      "val_s": 25.3,
+      "train_n": 24,
+      "val_n": 6
+    },
+    "spk071": {
+      "train_s": 123.7,
+      "val_s": 30.5,
+      "train_n": 22,
+      "val_n": 4
+    },
+    "spk072": {
+      "train_s": 195.1,
+      "val_s": 43.7,
+      "train_n": 33,
+      "val_n": 9
+    },
+    "spk073": {
+      "train_s": 92.0,
+      "val_s": 19.8,
+      "train_n": 16,
+      "val_n": 5
+    },
+    "spk074": {
+      "train_s": 52.7,
+      "val_s": 18.4,
+      "train_n": 9,
+      "val_n": 3
+    },
+    "spk075": {
+      "train_s": 60.7,
+      "val_s": 19.4,
+      "train_n": 9,
+      "val_n": 4
+    },
+    "spk076": {
+      "train_s": 70.2,
+      "val_s": 20.8,
+      "train_n": 11,
+      "val_n": 3
+    },
+    "spk077": {
+      "train_s": 95.2,
+      "val_s": 27.3,
+      "train_n": 17,
+      "val_n": 3
+    },
+    "spk078": {
+      "train_s": 94.5,
+      "val_s": 19.0,
+      "train_n": 21,
+      "val_n": 5
+    },
+    "spk079": {
+      "train_s": 104.3,
+      "val_s": 26.1,
+      "train_n": 25,
+      "val_n": 6
+    },
+    "spk080": {
+      "train_s": 137.5,
+      "val_s": 33.5,
+      "train_n": 24,
+      "val_n": 5
+    },
+    "spk081": {
+      "train_s": 74.1,
+      "val_s": 16.3,
+      "train_n": 13,
+      "val_n": 3
+    },
+    "spk082": {
+      "train_s": 53.5,
+      "val_s": 11.1,
+      "train_n": 8,
+      "val_n": 1
+    },
+    "spk083": {
+      "train_s": 162.9,
+      "val_s": 39.2,
+      "train_n": 29,
+      "val_n": 6
+    },
+    "spk084": {
+      "train_s": 467.2,
+      "val_s": 93.8,
+      "train_n": 72,
+      "val_n": 15
+    },
+    "spk085": {
+      "train_s": 397.4,
+      "val_s": 83.9,
+      "train_n": 75,
+      "val_n": 14
+    },
+    "spk086": {
+      "train_s": 216.5,
+      "val_s": 47.7,
+      "train_n": 33,
+      "val_n": 8
+    },
+    "spk087": {
+      "train_s": 40.4,
+      "val_s": 19.8,
+      "train_n": 6,
+      "val_n": 5
+    },
+    "spk089": {
+      "train_s": 89.4,
+      "val_s": 20.3,
+      "train_n": 17,
+      "val_n": 6
+    },
+    "spk090": {
+      "train_s": 68.1,
+      "val_s": 19.2,
+      "train_n": 13,
+      "val_n": 6
+    },
+    "spk092": {
+      "train_s": 106.4,
+      "val_s": 22.5,
+      "train_n": 27,
+      "val_n": 5
+    },
+    "spk093": {
+      "train_s": 57.7,
+      "val_s": 18.1,
+      "train_n": 8,
+      "val_n": 3
+    },
+    "spk094": {
+      "train_s": 130.1,
+      "val_s": 30.8,
+      "train_n": 22,
+      "val_n": 5
+    },
+    "spk095": {
+      "train_s": 53.6,
+      "val_s": 12.7,
+      "train_n": 9,
+      "val_n": 2
+    },
+    "spk096": {
+      "train_s": 51.9,
+      "val_s": 19.1,
+      "train_n": 12,
+      "val_n": 4
+    },
+    "spk097": {
+      "train_s": 171.0,
+      "val_s": 40.4,
+      "train_n": 28,
+      "val_n": 6
+    },
+    "spk098": {
+      "train_s": 62.7,
+      "val_s": 13.0,
+      "train_n": 9,
+      "val_n": 2
+    },
+    "spk099": {
+      "train_s": 59.1,
+      "val_s": 18.3,
+      "train_n": 14,
+      "val_n": 3
+    },
+    "spk100": {
+      "train_s": 146.2,
+      "val_s": 33.0,
+      "train_n": 30,
+      "val_n": 9
+    },
+    "spk102": {
+      "train_s": 78.4,
+      "val_s": 19.1,
+      "train_n": 23,
+      "val_n": 5
+    },
+    "spk103": {
+      "train_s": 133.3,
+      "val_s": 31.1,
+      "train_n": 26,
+      "val_n": 6
+    },
+    "spk104": {
+      "train_s": 57.9,
+      "val_s": 12.3,
+      "train_n": 12,
+      "val_n": 2
+    },
+    "spk105": {
+      "train_s": 54.5,
+      "val_s": 19.0,
+      "train_n": 9,
+      "val_n": 5
+    },
+    "spk106": {
+      "train_s": 81.5,
+      "val_s": 18.6,
+      "train_n": 15,
+      "val_n": 3
+    },
+    "spk107": {
+      "train_s": 123.1,
+      "val_s": 33.5,
+      "train_n": 18,
+      "val_n": 4
+    },
+    "spk109": {
+      "train_s": 54.2,
+      "val_s": 12.8,
+      "train_n": 12,
+      "val_n": 3
+    }
+  }
+}

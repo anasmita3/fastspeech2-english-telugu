@@ -1,0 +1,12 @@
+{
+  "train": {
+    "utterances": 2228,
+    "hours": 3.567,
+    "speakers": 2
+  },
+  "val": {
+    "utterances": 455,
+    "hours": 0.718,
+    "speakers": 2
+  }
+}
